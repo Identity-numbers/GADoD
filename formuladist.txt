@@ -1,0 +1,5 @@
+2^binomial(n, 2)/n!*(1+(n^2-n)/2^(n-1)+8*n!/(n-4)!*(3*n-7)*(3*n-9)/2^(2*n)+O(n^5/2^(5*n/2)))
+binomial(2*n, n) - binomial(2*n, n-1)
+Sum_{k=0..n-1} a(k)a(n-1-k)
+(1/(n+1))*Sum_{k=0..n} a(n-k)*binomial(2k+1, k+1)
+C(2n+1, n-k)*2*(k+1)/(n+k+2)
