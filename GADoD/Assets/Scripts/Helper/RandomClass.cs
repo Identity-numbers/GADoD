@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class RandomClass : MonoBehaviour
 {
-    System.Random rand = new System.Random();
-
     private double waitvalue = 0;
     private double deviationValue = 1;
 
@@ -19,15 +17,17 @@ public class RandomClass : MonoBehaviour
     }
 
     //return even random 0-1
-    public double EvenRandom()
+    public float EvenRandom()
     {
-        return(rand.NextDouble());
+        //System.Random rand = new System.Random();
+        float rand = Random.Range(0.0f,1.0f);
+        return(rand);
     }
 
     //return pyramid random 0-1, 0.5 most common
-    public double PyramidRandom()
+    public float PyramidRandom()
     {
-        return((EvenRandom() + EvenRandom())/2.0);
+        return((EvenRandom() + EvenRandom())/2.0f);
     }
 
 }
