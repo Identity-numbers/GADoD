@@ -23,7 +23,7 @@ public class PopulationInd : MonoBehaviour
         // operators might be plus, minus, times didivde, exponential etc
         //fitnessValue = randomClass.EvenRandom();
 
-    //Init individual
+    //Init individuals
     public void InitIndividual(int i)
     {
         //add unique creation ID.
