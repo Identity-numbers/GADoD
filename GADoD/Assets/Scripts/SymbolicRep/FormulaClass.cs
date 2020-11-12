@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class FormulaClass : MonoBehaviour
 {
-    private List<ParanthesisClass> SymbolList = new List<ParanthesisClass>();
+    private List<ParenthesisClass> SymbolList = new List<ParenthesisClass>();
     private List<OperatorList> OperatorList = new List<OperatorList>();
 
+    public void InitFormula()
+    {
+        //initiate symnols and operators
+    }
 }

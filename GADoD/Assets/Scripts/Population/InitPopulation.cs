@@ -18,9 +18,12 @@ public class InitPopulation : MonoBehaviour
         }
     }
 
+    //set up and return a fresh population individual
     private PopulationInd CreateIndividual(int i)
     {
         PopulationInd ind = Instantiate(populationInd,transform.position, transform.rotation);
+
+        //organize in UNITY ide catalogized for inspection
         ind.transform.SetParent(parentGO);
         ind.InitIndividual(i);
         return ind;

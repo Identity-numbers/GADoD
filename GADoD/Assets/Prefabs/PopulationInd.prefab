@@ -45,7 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomClass: {fileID: 7299134745416937199}
+  formulaClass: {fileID: 5269046338955226173, guid: 5fd68be91923243e3a6135f89716719f,
+    type: 3}
   fitnessValue: 0
+  creationID: 0
 --- !u!114 &7299134745416937199
 MonoBehaviour:
   m_ObjectHideFlags: 0
